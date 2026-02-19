@@ -27,6 +27,5 @@ Seasons - Episodes
 ### Aggregation
 Users - SubscriptionPlans
 
-
-
 ## UML
+![UML - Streaming Platform](./img/streaming.png)
