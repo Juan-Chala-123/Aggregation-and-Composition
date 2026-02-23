@@ -40,4 +40,4 @@ Destist - Sessions
 
 ## UML
 
-![UML - Dental Clinic](./img/clinica.png)
+![UML - Dental Clinic](./img/clinic.png)
