@@ -20,6 +20,7 @@ public class Clinics {
         this.name = name;
         this.address = address;
         this.telephone = telephone;
+        this.dentist = new ArrayList<>();
     }
     
     public void addDentist(Dentist d) {

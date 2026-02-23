@@ -21,10 +21,11 @@ public class Treatments {
         this.startDate = startDate;
         this.diagnosis = diagnosis;
         this.stimatedCost = stimatedCost;
+        this.sessions = new ArrayList<>();
     }
     
-    public void addSession(LocalDate date, String procedurePerformend, ArrayList<Dentist> dentist) {
-        Sessions sessions = new Sessions(date, procedurePerformend, dentist);
+    public void addSession(LocalDate date, String procedurePerformend) {
+        Sessions sessions = new Sessions(date, procedurePerformend);
         this.sessions.add(sessions);
     }
     

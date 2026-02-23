@@ -16,13 +16,13 @@ public class Sessions {
     private String procedurePerformend;
     private ArrayList<Dentist> dentist;
 
-    public Sessions(LocalDate date, String procedurePerformend, ArrayList<Dentist> dentist) {
+    public Sessions(LocalDate date, String procedurePerformend) {
         this.date = date;
         this.procedurePerformend = procedurePerformend;
-        this.dentist = dentist;
+        this.dentist = new ArrayList<>();
     }
     
-    public void agregarDentista(Dentist d) {
+    public void addDentist(Dentist d) {
         this.dentist.add(d);
     }
     

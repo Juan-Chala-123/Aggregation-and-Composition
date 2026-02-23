@@ -11,9 +11,9 @@ package dentalclinic;
 public class Dentist {
     private String name;
     private String specialty;
-    private int professionalCardNumber;
+    private String professionalCardNumber;
 
-    public Dentist(String name, String specialty, int professionalCardNumber) {
+    public Dentist(String name, String specialty, String professionalCardNumber) {
         this.name = name;
         this.specialty = specialty;
         this.professionalCardNumber = professionalCardNumber;
@@ -35,11 +35,11 @@ public class Dentist {
         this.specialty = specialty;
     }
 
-    public int getProfessionalCardNumber() {
+    public String getProfessionalCardNumber() {
         return professionalCardNumber;
     }
 
-    public void setProfessionalCardNumber(int professionalCardNumber) {
+    public void setProfessionalCardNumber(String professionalCardNumber) {
         this.professionalCardNumber = professionalCardNumber;
     }
 

@@ -4,7 +4,6 @@
  */
 package dentalclinic;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
@@ -21,11 +20,11 @@ public class Patient {
         this.name = name;
         this.documentNumber = documentNumber;
         this.telephone = telephone;
+        this.treatments = new ArrayList<>();
     }
     
-    public void addTreatments(LocalDate startDate, String diagnosis, String stimatedCost) {
-        Treatments treatments = new Treatments(startDate, diagnosis, stimatedCost);
-        this.treatments.add(treatments);
+    public void addTreatments(Treatments t) {
+        this.treatments.add(t);
     }
     
     public void removeTreatments(Treatments t) {
