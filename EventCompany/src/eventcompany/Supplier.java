@@ -9,5 +9,18 @@ package eventcompany;
  * @author CHALA RAMIREZ
  */
 public class Supplier {
-    
+
+    private String name;
+    private int telephone;
+    private String supply;
+
+    public Supplier(String name, int telephone, String supply) {
+        this.name = name;
+        this.telephone = telephone;
+        this.supply = supply;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
