@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class Vehicle {
     private String plate;
     private String color;
-    private ServiceOrders order;
     private ArrayList<ServiceOrders> orders;
     
     public Vehicle(String plate, String color) {

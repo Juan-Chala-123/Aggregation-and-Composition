@@ -42,8 +42,8 @@ public class Main {
         System.out.println("\n=== ORDEN DE SERVICIO ===");
         System.out.println("Fecha: " + order.getDate());
         System.out.println("Problema: " + order.getDescriptionProblem());
-        System.out.println("Trabajo - Costo: $" + order.getJob().getCost());
-        System.out.println("Trabajo - Descripción: " + order.getJob().getDescription());
+        System.out.println("Trabajo - Costo: $" + order.getJob().get(0).getCost());
+        System.out.println("Trabajo - Descripción: " + order.getJob().get(0).getDescription());
         
         System.out.println("\n=== VEHÍCULO ===");
         System.out.println("Placa: " + vehicle.getPlate());
