@@ -57,9 +57,9 @@ public class Main {
                              shift.getStartTime() + " - " + shift.getEndTime());
         }
         
-        System.out.println("\n=== ELIMINANDO TURNO ===");
-        service.removeShifts(shift3);
-        System.out.println("Turnos restantes: " + service.getShifts().size());
+        // System.out.println("\n=== ELIMINANDO TURNO ===");
+        // service.removeShifts(shift3);
+        // System.out.println("Turnos restantes: " + service.getShifts().size());
         
         System.out.println("\n=== SEGUNDO SERVICIO ===");
         Service service2 = new Service(LocalDate.of(2026, 2, 25), 12);
